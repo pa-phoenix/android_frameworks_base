@@ -4881,13 +4881,19 @@ public final class Settings {
          * @hide
          */
         public static final String ALERT_SLIDER_ORDER = "alert_slider_order";
-        
+
         /**
          * Auxiliary Button
          * Provides an extra mappable action
          * @hide
          */
         public static final String AUX_BUTTON = "aux_button";
+
+        /**
+         * Enable statusbar double tap gesture on to put device to sleep
+         * @hide
+         */
+        public static final String DOUBLE_TAP_SLEEP_GESTURE = "double_tap_sleep_gesture";
 
         /**
          * @hide
@@ -5209,6 +5215,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(GESTURE_ONE_FINGER_SWIPE_LEFT);
             PRIVATE_SETTINGS.add(FORCE_FULLSCREEN_CUTOUT_APPS);
             PRIVATE_SETTINGS.add(QS_PANEL_BG_USE_NEW_TINT);
+            PRIVATE_SETTINGS.add(DOUBLE_TAP_SLEEP_GESTURE);
         }
 
         /**
